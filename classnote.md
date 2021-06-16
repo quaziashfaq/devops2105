@@ -222,3 +222,47 @@ E..4..@.@.U....
 Number of ports in the OS is 2 ** 16.
 
 
+
+# Commands to create Network Namspace and setting IPv6 467  iptables --list
+  468  sudo iptables --list
+  469  sudo ip route show
+  470  sudo ip adr show
+  471  sudo ip addr show
+  472  sudo ip netns exec red sh
+  473  sudo ip netns exec red bash
+  474  sudo ip netns exec red sh
+  475  ip 
+  476  ip link
+  477  ip link -statistics
+  478  ip -statistics link
+  479  ip -statistics addr show
+  480  sudo ip netns exec red ip a
+  481  sudo ip netns exec red ip addr sow
+  482  sudo ip netns exec red ip addr show
+  483  sudo ip link add veth-a type veth peer name veth-b
+  484  sudo ip link show
+  485  sudo ip link set veth-b netns red
+  486  sudo ip addr show
+  487  sudo ip link show
+  488  sudo ip netns exec red ip addr show
+  489  sudo ip link
+  490  sudo ip netns list
+  491  sudo ifconfig 
+  492  sudo ip link show
+  493  sudo ip addr add 192.168.1.1/24 dev veth-a
+  494  sudo ip link show
+  495  sudo ip addr show
+  496  sudo ip netns exec red ip addr add 192.168.1.2/24 dev veth-b
+  497  sudo ip netns exec red ip addr show
+  498  sudo ip link -h
+  499  sudo ip link help
+  500  sudo ip link set veth-a up
+  501  sudo ip addr show
+  502  sudo ip netns exec red ip link set veth-b up
+  503  sudo ip netns exec red ip addr show
+  504  sudo ip addr show
+  505  arp -a
+  506  sudo arp -a
+  507  sudo arp
+  508  ip addr show
+  509  history
